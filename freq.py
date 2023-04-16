@@ -2,6 +2,8 @@
 # name：Wangpf
 # encoding：utf-8
 
+#usage:python freq.py [wild.freq] [vcf.freq] [out.file]
+
 import sys
 fo1=open(sys.argv[1],"r")
 fo2=open(sys.argv[2],"r")
